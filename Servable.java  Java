@@ -1,0 +1,6 @@
+public interface Servable {
+    void prepare();
+    default void addCondiments() {
+        System.out.println(" -> Додано цукор.");
+    }
+}
